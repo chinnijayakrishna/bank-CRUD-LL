@@ -1,3 +1,4 @@
+// misc functions
 #include <stdio.h>
 
 void remove_newline(char *text)
