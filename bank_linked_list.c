@@ -288,10 +288,12 @@ void delete_account()
 			if (before_current == NULL)
 			{
 				start = current->next;
+				break;
 			}
 			else
 			{
 				before_current->next = current->next;
+				break;
 			}
 		}
 		before_current = current;
